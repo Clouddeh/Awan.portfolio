@@ -1,0 +1,133 @@
+body {
+    background-color: #f3e8f3;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: red;
+}
+
+/* BUTTON */
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* SECTION */
+section {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: 5px auto;
+}
+
+/* PENDIDIKAN & ORGANISASI */
+.school, .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.school img, .about-content img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.school div, .about-content div {
+    flex: 1;
+}
+
+.school h3, .about-content h3 {
+    font-size: 22px;
+}
+
+.school p, .about-content p {
+    font-size: 16px;
+}
+
+/* FEEDBACK FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button[type='submit'] {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
